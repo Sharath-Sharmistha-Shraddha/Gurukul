@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/custombar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    app:popupTheme="@style/Theme.Elearning">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/loim"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/iconbg"
+        android:src="@drawable/hat"
+
+        app:civ_border_color="@color/white"
+        app:civ_border_width="5dp"
+        />
+
+    <TextView
+        android:id="@+id/logt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rozha_one"
+        android:layout_marginStart="33dp"
+        android:foregroundGravity=""
+        android:text="@string/gurukul"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_marginLeft="35dp" />
+
+
+
+</androidx.appcompat.widget.Toolbar>

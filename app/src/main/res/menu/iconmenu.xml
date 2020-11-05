@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pro"
+        android:icon="@drawable/progress"
+        android:title="My progress"
+        />
+    <item android:id="@+id/sett"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Account setting"
+        />
+    <item android:id="@+id/sha"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share"
+        />
+
+    <item android:id="@+id/lout"
+        android:icon="@drawable/log_out"
+        android:title="Log out"
+        />
+</menu>
